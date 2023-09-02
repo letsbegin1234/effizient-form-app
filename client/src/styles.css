@@ -1,0 +1,115 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'satoshi',sans-serif;
+    
+}
+body {
+    
+    background-image: url("./backg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+label {
+    font-size: 1.1rem;
+    display: block;
+    
+    
+}
+.navbar {
+    width: 50%;
+    margin: 40px auto;
+}
+.form {
+   
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    background-color: white;
+    padding: 50px;
+    font-size: 1.1rem;
+    width: 50%;
+    vertical-align: middle;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.item input{
+   
+    width: 100%;
+    /* margin: 0% 10%;
+     */
+    margin: 10px 0px;
+    margin-bottom: 40px;
+    min-height: 30px;
+    max-height: 200px;
+    border:2px solid #EEEEEE;
+    border-radius: 5px;
+    padding-left: 5px;
+    overflow-x: visible;
+    overflow-y: auto;
+}
+.item label{
+    font-size: 1.1rem;
+    display: block;
+}
+.item select{   
+    margin: 10px 0px;
+    margin-bottom: 40px;
+    width: 50%;
+    height: 33px;
+    border:2px solid #EEEEEE;
+    border-radius: 5px;
+    padding-left: 5px;
+    
+}
+
+form button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.leftbtn{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.0rem;
+    border-radius: 5px;
+}
+.rightbtn{
+    float: right;
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 1.0rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.centerbtn{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin: 10px auto !important;
+    cursor: pointer;
+}
